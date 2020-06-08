@@ -1,2 +1,2 @@
 # Fraud_App
-Web Page to detect fraud app from google paly store using sentiment analysis.
+Web Page to detect fraud app from google play store using sentiment analysis.
