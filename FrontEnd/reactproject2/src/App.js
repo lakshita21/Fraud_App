@@ -151,7 +151,7 @@ export default function PrimarySearchAppBar() {
         axios.post('http://localhost:3010/comment',{data:comment})
         .then((res) => {
           console.log("api ka response", res.data)
-          Result = res.data
+          var Result = res.data
           if (res.data) {
             Result = res.data
             setanalyseComment(res.data)
